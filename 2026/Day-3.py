@@ -57,5 +57,42 @@ while count <= 10:
     print(f"{n} x {count} = {multiply}")
     count += 1
 
+a = int(input("Enter a number: "))
+b = int(input("Enter b number: "))
+c = int(input("Enter c number: "))
+if  a > b and a > c:
+    print(a)
+elif  b > a and b > c:
+    print(b)
+elif c > a and c > b:
+    print(c)
+else:
+    print("all are equal")
 
+n = int(input("Enter a number: "))
+if n > 0:
+    print("Positive")
+elif n < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+total = 0
+for i in range(1, 101):
+    total = total + i
+print("sum = ", total)
+
+num = int(input("Enter a number: "))
+factorial = 1
+for i in range(1, 11):
+    factorial = factorial * i
+    print("factorial of ", i, "is", factorial) 
+
+num = int(input("Enter a number: "))
+reverse = 0
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num //10
+    print("Reverse: ", reverse)
 
