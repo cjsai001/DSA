@@ -17,3 +17,11 @@ def greet_user():
     print(f"Welcome back, {global_username}!")
 greet_user() 
 print(global_username)
+
+counter = 0  
+def increment_counter():
+    global counter  
+    counter = counter + 1
+increment_counter()
+increment_counter()
+print(counter) 
