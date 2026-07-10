@@ -31,3 +31,35 @@ print(text.title())
 
 text = "I like Java"
 print(text.replace("Java", "Python"))
+
+text = "banana"
+print(text.count("a"))
+
+text = "DevOps"
+print(text.find("Ops"))
+
+text = "Python"sentence = "I love Python"
+words = sentence.split()
+print(words)
+print("Py" in text)
+print("Java" in text)
+
+words = ["DevOps", "is", "Awesome"]
+print(" ".join(words))
+
+a = "apple"
+b = "banana"
+print(a == b)
+print(a < b)
+
+word = "Python"
+for ch in word:
+    print(ch)
+
+text = "Python"
+print(text[::-1])
+text = "Python"
+reverse = ""
+for ch in text:
+    reverse = ch + reverse
+print(reverse)
