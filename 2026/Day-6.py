@@ -98,7 +98,8 @@ print(numbers)
 numbers = [4, 8, 2, 10]
 print(max(numbers))
 print(min(numbers))
+
+
 12. Sum of Elements
 numbers = [10, 20, 30]
-
 print(sum(numbers))
