@@ -90,13 +90,12 @@ print(numbers)
 
 10. Reverse List
 numbers = [1, 2, 3, 4]
-
 numbers.reverse()
-
 print(numbers)
+
+
 11. Find Maximum and Minimum
 numbers = [4, 8, 2, 10]
-
 print(max(numbers))
 print(min(numbers))
 12. Sum of Elements
