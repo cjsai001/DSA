@@ -74,29 +74,20 @@ for i in range(len(numbers)):
 
 8. Membership
 numbers = [5, 10, 15]
-
 print(10 in numbers)
 print(50 in numbers)
 
-Output
 
-True
-False
 9. Sorting
-
 Ascending
-
 numbers = [5, 2, 9, 1]
-
 numbers.sort()
-
 print(numbers)
-
 Descending
-
 numbers.sort(reverse=True)
-
 print(numbers)
+
+
 10. Reverse List
 numbers = [1, 2, 3, 4]
 
