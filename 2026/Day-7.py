@@ -71,3 +71,15 @@ for num in numbers:
     if num not in unique:
         unique.append(num)
 print(unique)
+
+
+numbers = list(map(int, input("Enter the numbers separated by spaces: ").split()))
+target = int(input("Enter the element to search: "))
+found = False
+for i in range(len(numbers)):
+    if numbers[i] == target:
+        print(f"Element {target} found at index {i}")
+        found = True
+        break
+if not found:
+    print(f"Element {target} not found in the list.")
