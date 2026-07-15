@@ -57,3 +57,29 @@ for i in range(n):
         if numbers[j] > numbers[j + 1]:
             numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
 print("Sorted List:", numbers)
+
+
+
+class Solution:
+    def sortColors(self, nums):
+        zero = nums.count(0)
+        one = nums.count(1)
+        two = nums.count(2)
+        nums[:] = [0] * zero + [1] * one + [2] * two
+
+
+class Solution:
+    def sortColors(self, nums):
+        low = 0
+        mid = 0
+        high = len(nums) - 1
+        while mid <= high:
+            if nums[mid] == 0:
+                nums[low], nums[mid] = nums[mid], nums[low]
+                low += 1
+                mid += 1
+            elif nums[mid] == 1:
+                mid += 1
+            else:
+                nums[mid], nums[high] = nums[high], nums[mid]
+                high -= 1
