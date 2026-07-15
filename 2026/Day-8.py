@@ -40,3 +40,13 @@ numbers.sort(reverse=True)
 print(numbers)
 
 
+numbers = [9, 4, 2, 7]
+new_list = sorted(numbers)
+print(new_list)
+
+
+numbers = [10, 4, 8, 2]
+print(sorted(numbers))
+print(sorted(numbers, reverse=True))
+
+
