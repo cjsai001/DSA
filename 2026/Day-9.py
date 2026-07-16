@@ -92,3 +92,52 @@ for j in range(cols):
     for i in range(rows):
         print(matrix[i][j], end=" ")
     print()
+
+
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+for row in matrix:
+    for element in row:
+        print(element, end=" ")
+    print()
+
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+total = 0
+for row in matrix:
+    for element in row:
+        total += element
+print("Sum:", total)
+
+
+matrix = [
+    [10, 25, 5],
+    [8, 40, 15],
+    [12, 7, 30]
+]
+largest = matrix[0][0]
+for row in matrix:
+    for element in row:
+        if element > largest:
+            largest = element
+print("Largest element:", largest)
+
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+for row in matrix:
+    total = 0
+    for element in row:
+        total += element
+    print("Row sum:", total)
