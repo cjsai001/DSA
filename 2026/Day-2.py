@@ -123,7 +123,8 @@ if a > 0 and b > 0 and c > 0:
 else:
     print("not all are positive")
 
-#Find which is biggest number
+
+
 a = int(input("Enter a number: "))
 b = int(input("Enter b number: "))
 c = int(input("Enter c number: "))
