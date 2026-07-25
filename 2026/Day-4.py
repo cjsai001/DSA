@@ -1,7 +1,8 @@
 def calculate_total_price(item_price, tax_rate):
     total = item_price + (item_price * tax_rate)
     return total  
-# Calling the function
+
+
 final_bill = calculate_total_price(item_price=100, tax_rate=0.18)
 print(f"Your final bill is: {final_bill}")
 
