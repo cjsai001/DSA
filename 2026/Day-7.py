@@ -34,7 +34,7 @@ while left <= right:
         left = mid+1
 
 
-#time complexity
+
 numbers = [10,20,30]
 print(numbers[1])
 
