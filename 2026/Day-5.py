@@ -52,10 +52,6 @@ b = "banana"
 print(a == b)
 print(a < b)
 
-word = "Python"
-for ch in word:
-    print(ch)
-
 text = "Python"
 print(text[::-1])
 text = "Python"
