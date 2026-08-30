@@ -14,15 +14,11 @@ n = int(input())
 print(n * n)
 print(n * n * n)
 
-
-
 print(type(10))
 print(type(7.77))
 print(type("sai"))
 print(type(True))
 print(type(False))
-
-
 
 a = 5
 b = 10
@@ -42,8 +38,6 @@ b = int(input("enter b:"))
 print (a / b) 
 name = input("Enter your name: ")
 Birth_year = int(input("Enter your Birth year: "))
-
-
 
 print(f"Hello {name}")
 print(f"You are approximately {2025 - Birth_year} old in 2025.")
