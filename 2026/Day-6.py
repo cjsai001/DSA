@@ -5,7 +5,7 @@ print(numbers)
 
 2. Access Elements
 Indexing starts from 0.
-numbers = [10, 20, 30, 40, 50]
+numbers = [10, 20, 30, 40]
 print(numbers[0])
 print(numbers[2])
 print(numbers[-1])
