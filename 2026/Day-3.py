@@ -76,7 +76,7 @@ elif n < 0:
     print("Negative")
 else:
     print("Zero")
-
+    
 total = 0
 for i in range(1, 101):
     total = total + i
