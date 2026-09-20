@@ -6,7 +6,6 @@ for i in range(n):
             numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
 print(numbers)
 
-
 numbers = [64, 25, 12, 22, 11]
 n = len(numbers)
 for i in range(n):
